@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/bg-pattern-top-desktop.svg");
+  background-repeat: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Spartan";
+}
+
+
+.content{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.up{
+    margin: 80px;
+    display: flex;
+
+}
+.intro{
+    width: 45%;
+}
+
+.titleforarticle{
+    font-size: 50px;
+}
+
+.rate{
+    margin-left: 0%;
+    width: 55%;
+    font-size: 12px;
+    position: relative;
+    
+}
+.rate>div{
+    border: 1px solid grey;
+    margin: 25px;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    float: right;
+}
+
+.star{
+    padding-left: 20px;
+    padding-right: 20%;
+}
+
+
+.rate-button1{
+    margin-right: 60px !important;
+}
+.rate-button2{
+    margin-right: 30px !important;
+}
+.rate-button3{
+    margin-right: 0px !important;
+}
+
+.down{
+    display: flex;
+    justify-content: space-around;
+}
+.down>div{
+    height: auto;
+    width: 25%;
+    background-color:hsl(300, 43%, 22%);
+    padding: 25px;
+    border-radius: 5%;
+}
+
+.avata{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    
+}
+
+.card1{
+   
+}
+
+.infor{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    display: inline-block;
+   padding-left: 25px;
+   
+}
